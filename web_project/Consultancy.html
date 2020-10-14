@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Consult Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/flickity.css">
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+</head>
+
+<body>
+    <!----------------------------------------nevbar---------------------------------->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">KiteStayFit</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i> 
+  </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="Consultancy.html">Consultancy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="aboutus.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="contact.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 banner-image bmi-right">
+                    <h1>BMI CALCULATOR</h1>
+                    <div class="container-1">
+
+                        <div class="range-slider">
+                            <span id="rs-bullet" class="rs-label">0</span>
+                            <input id="rs-range-line" class="rs-range" type="range" value="0" min="0" max="200">
+
+                        </div>
+
+                        <div class="box-minmax">
+                            <span>0</span><span>200</span>
+                        </div>
+                        <div class="range-slider">
+                            <span id="rs-bullet-1" class="rs-label-1">0</span>
+                            <input id="rs-range-line-1" class="rs-range" type="range" value="0" min="0" max="250">
+
+                        </div>
+
+                        <div class="box-minmax">
+                            <span>0</span><span>250</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-3 bmi-left">
+                    <p id="bmi-result">YOUR BODY MASS INDEX IS GOING TO BE CALCULATED HERE..</p>
+                    <BR>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12  bmi-div">
+                    <button class="btn" id="bmi-btn" onclick="bmiCal()">calculate</button>
+                </div>
+            </div>
+        </div>
+        <img src="photo/wave.png" alt="photo" class="wave">
+    </section>
+    <!---------------------------------------------Exclusive program-------------------------------->
+    <!-- <section id="THE PROGRAM">
+        <div class="container mt-5">
+            <h1 class="consult-program-info main-title ">Consultation Program's</h1>
+            <div class="row">
+                <div class="col-md-4 consult-program-photo">
+                    <img src="photo/meditation.jpg" alt="photo1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, nobis rerum, vero quis quam maxime autem excepturi illum ducimus officia nulla. Velit optio doloremque accusantium unde facere facilis minima pariatur.</p>
+                    <a href="#" class="btn btn-primary"> Get info..</a>
+                </div>
+                <div class="col-md-4 consult-program-photo">
+                    <img src="photo/meditation.jpg" alt="photo2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, nobis rerum, vero quis quam maxime autem excepturi illum ducimus officia nulla. Velit optio doloremque accusantium unde facere facilis minima pariatur.</p>
+                    <a href="#" class="btn btn-primary"> Get info..</a>
+                </div>
+                <div class="col-md-4 consult-program-photo">
+                    <img src="photo/meditation.jpg" alt="photo3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, nobis rerum, vero quis quam maxime autem excepturi illum ducimus officia nulla. Velit optio doloremque accusantium unde facere facilis minima pariatur.</p>
+                    <a href="#" class="btn btn-primary"> Get info..</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-----------------------------------how it work-------------------------------->
+    <section id="howitwork">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-md-12">
+                    <h1 class="howitworkstyle main-title">How It Work</h1>
+                    <div class="text-center-style text-center mt-5" style="font-family: sans-serif;">
+                        You have to choose –
+                        <br> a) <b>Duration</b> – 3, 6 or 12 months and
+                        <br> b) <b>With whom</b> – Rashmi, team nutritionist or a joint program
+                        <h4 class="mt-4 mb-4">The structure of the program stays the exact same.</h4>
+
+                        <div class="col-md-12 rj-h2 text-center-style " style="padding-bottom: 2%; padding-top: 1%;">
+                            <h3> It's a 3-stage process:</h3>
+                        </div>
+                    </div>
+
+                    <div class="consult-text-work">
+                        <h4 style="margin-left: 50px; padding-top: 35px;">THE PRE-CONSULTATION STAGE</h4>
+                        <ul class="consult-text-work-1">
+                            <h5>
+                                <li>
+                                    You fill the ‘Getting to know you’ sheet to help us figure out your existing eating pattern and workout routine, expectations from the program and health parameters which are important to you
+                                </li>
+                                <li class="mt-2">
+                                    An appointment schedule is generated for the duration of the program based on your time and day preferences.</li>
+
+                                <li class="mt-2">A document with easy guidelines to implement before your first appointment is shared.</li>
+                            </h5>
+                        </ul>
+
+                    </div>
+                    <div class="consult-text-work">
+                        <h4 style="margin-left: 50px; padding-top: 35px;">CONSULTATION STAGE</h4>
+                        <ul class="consult-text-work-1">
+                            <h5>
+                                <li>
+                                    You start off with an hour long first meeting where we work together on devising an eating pattern that is sustainable and a culture fit.
+                                </li>
+                                <li class="mt-2">
+                                    Weekly interactions to review and alter your meal and exercise plans.
+                                </li>
+                                <li class="mt-2">
+                                    Phone, Whatsapp and email support throughout for all of your queries.
+                                </li>
+                                <li class="mt-2">
+                                    Special meal planning for special occasions like work travel, holiday, wedding, festivals, etc.
+                                </li>
+                            </h5>
+                        </ul>
+                    </div>
+                    <div class="consult-text-work">
+                        <h4 style="margin-left: 50px; padding-top: 35px;">POST-CONSULTATION STAGE</h4>
+                        <ul class="consult-text-work-1">
+                            <h5>
+                                <li>We maintain a lifelong relation with you and provide support anytime you need.</li>
+                                <li class="mt-2">
+                                    A post- consultation document summarizing all the learnings from the program and also practical guidelines for most of the situations you will face going forward.</li>
+                            </h5>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------Sign in--------------------------------->
+
+
+    <section id="SIGN" class="text-light">
+        <div class="container-fluid">
+            <h1 class="main-title text-center text-light">SIGN UP</h1>
+            <h2 class="mt-4 mb-3 text-center">1. Exclusive consultation programs</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">PACKAGE</th>
+                            <th scope="col">WITH</th>
+                            <th scope="col">DETAILS</th>
+                            <th scope="col">COST</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">3 Months</th>
+                            <td>Team</td>
+                            <td>->Weekly appointments with your designated nutritionist.
+                                <br><b>-></b> All meal plans supervised by Rashmi Bothra.</td>
+                            </td>
+                            <td> INR: -<br>USD: -</td>
+                            <td class="text-center" data-th=""><a class="btn btn-light" data-fancybox-type="iframe" href="https://forms.gle/favHQcJySruzTAuX7">Sign Up</a></td>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <th scope="row">3 Months</th>
+                                <td>Rashmi + Team</td>
+                                <td> -> First appointment with Rashmi, weekly sessions with designated nutritionist.<br> -> Waiting period – 1 month</td>
+                                <td>INR: -<br>USD: -</td>
+                                <td class="text-center" data-th=""><a class="btn btn-light" data-fancybox-type="iframe" href="https://forms.gle/favHQcJySruzTAuX7">Sign Up</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6 Months</th>
+                                <td>Team</td>
+                                <td> -> Weekly appointments with your designated nutritionist.<br> -> All meal plans supervised by Rashmi Bothra</td>
+                                <td>INR: -<br>USD: -</td>
+                                <td class="text-center" data-th="" "><a class="btn btn-light " data-fancybox-type="iframe " href="https://forms.gle/favHQcJySruzTAuX7 ">Sign Up</a></td>
+    </tr>
+    <tr>
+      <th scope="row ">6 Months</th>
+      <td>Rashmi + Team </td>
+      <td>  -> First appointment with Rashmi, weekly sessions with designated nutritionist.<br>
+            -> Waiting period – 1 month</td>
+      <td>INR: -<br>USD: -</td>
+      <td class="text-center " data-th=" "><a class="btn btn-light " data-fancybox-type="iframe " href="https://forms.gle/favHQcJySruzTAuX7 ">Sign Up</a></td>
+    </tr>
+    <tr>
+      <th scope="row ">12 Months</th>
+      <td>Rashmi</td>
+      <td>  -> Twice a month appointments with Rashmi.<br>
+            -> All meal plans and follow up sessions with Rashmi directly.<br>
+              -> Waiting period – 2 months</td>
+      <td>INR: -<br>USD: -</td>
+      <td class="text-center " data-th=" "><a class="btn btn-light " data-fancybox-type="iframe " href="https://forms.gle/favHQcJySruzTAuX7 ">Sign Up</a></td>
+    </tr>
+    
+
+          </table>
+
+   <h4 class="mt-4 text-center " ><b>Notes:</b></h4>
+                <h4 class="text-center ">1. Interactions happen either in-person or on video chat, so you can join from anywhere across the globe.</h4>
+                <h4 class="text-center ">2. Waiting period reduced for critically ill/ cancer fighters/ artists and athletes.</h4>
+                <h4 class="text-center ">3. Includes dedicated sessions with our in-house exercise planning consultant.</h4>
+                <h4 class="text-center ">4. Fees is non-refundable and non-transferable.</h4>
+      </div>
+    </div>
+     <div>
+            <div class="col-md-12 text-center rj-h2 rj-back-color " style="padding-bottom: 1%; padding-top: 5%; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; ">2. Unique 2-month program</div>
+            <div class="container-fluid ">
+        <div class="table-responsive ">
+          <table class="table table-bordered ">
+             <thead>
+    <tr>
+      <th scope="col ">PACKAGE</th>
+      <th scope="col ">WITH</th>
+      <th scope="col ">DETAILS</th>
+      <th scope="col ">COST</th>
+      <th scope="col "></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row ">2 Months</th>
+      <td>Rashmi + Team</td>
+      <td>->A full day workshop at " Place name ", followed by weekly phone interactions for 2 months.
+            <br>->phone interactions for 2 months.- 80 seats/ year in 4 batches.</td></td>
+      <td> INR: -<br>USD: -</td>
+      <td class="text-center " data-th=" "><a class="btn btn-light " data-fancybox-type="iframe " href="https://forms.gle/favHQcJySruzTAuX7 ">Sign Up</a></td>
+    </tr>
+     <tbody>
+            
+          </table>
+                <h3  class="mt-4 text-center "><b>Note:</b></h3>
+                <h5 class="text-center ">1. Dates for 2020 batches are – 10th jan (Fat loss), 7th Mar (PCOD/ Thyroid), 7th Sep (Diabetes/heart health), 28th Nov (Fat loss)</h5>
+                <h5 class="text-center ">2. Each batch has 25 seats on first paid basis.</h5>
+                <h5 class="text-center ">3. You can only join 1 batch in an year.</h5>
+                <h5 class="text-center ">4. Fees is non-refundable and non-transferable. All taxes are included.</h5>
+      </div>
+          </div>
+        </div>
+  </section>
+<!------------------------------------------------FaQ's-->
+  <section id="FAQ 's">
+    <div class="container">
+      <h1 class="main-title text-center">FaQ's</h1>
+            </div>
+    </section>
+
+    <!----------------------------------------------Footer-------------------------------->
+
+    <section id="footer">
+        <img src="photo/wave1.png" alt="photo-wave" class="wave">
+        <div class="container footer-space">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <h1>KiteStayFit</h1>
+                    <p class="text">Rashmi L. Bothra is a certified and trusted consultant, in Nutrition & Dietetics.She has a more than 2 years of rich experience in this particular field and always eager to continue this in future. </p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>CONTACT US</b></p>
+                    <p><i class="fa fa-map-marker-alt icon"></i>Airoli,New mumbai, Maharashtra</p>
+                    <p><i class="fa fa-phone-alt icon"></i>+91 8779189752</p>
+                    <p><i class="fa fa-envelope-open-text icon"></i>stayfitkite@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                    
+                    <p><b>FEEDBACK FORM</b></p>
+                    <form method="post" action="feedback.php">
+                     <input type="email" class="form-control" name="user_email" placeholder="Enter your Email">
+                    <textarea cols="30" rows="4" placeholder="Feedback" name="user_feedback" class="text-area"></textarea><br>
+                    <button type="submit" class="btn btn-white">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+            <hr>
+            <p class="text">Copyright &copy; 2019 Kitestayfit, Inc. All right reserved<a href="privacypolicy.html" class="footer-links"> Terms of Use</a> |<a href="privacypolicy.html" class="footer-links">Privacy Policy </a> </p>
+
+        </div>
+
+    </section>
+</body>
+<script>
+    var rangeSlider = document.getElementById("rs-range-line");
+    var rangeBullet = document.getElementById("rs-bullet");
+    var rangeSlide = document.getElementById("rs-range-line-1");
+    var rangeBull = document.getElementById("rs-bullet-1");
+
+    rangeSlider.addEventListener("input", showSliderValue, false);
+    rangeSlide.addEventListener("input", showSlider, false);
+
+    function bmiCal() {
+        let weight = rangeSlider.value;
+        let height = (rangeSlide.value) / 100;
+        let result = (weight / (height * height)).toFixed(2);
+        if (result >= 1 && result <= 18.5) {
+            document.getElementById("bmi-result").innerHTML = "Your Body Mass Index is " + result + "Which shows that you have Underweight";
+            document.getElementById("bmi-result").classList.add("uwBmi");
+            document.getElementById("bmi-result").classList.remove("owBmi");
+            document.getElementById("bmi-result").classList.remove("nmBmi");
+
+        }
+        if (result > 18.5 && result <= 25) {
+            document.getElementById("bmi-result").innerHTML = "Your Body Mass Index is " + result + "Which shows that you have Normal Weight";
+            document.getElementById("bmi-result").classList.add("nmBmi");
+            document.getElementById("bmi-result").classList.remove("owBmi");
+            document.getElementById("bmi-result").classList.remove("umBmi");
+        }
+        if (result > 25) {
+            document.getElementById("bmi-result").innerHTML = "Your Body Mass Index is " + result + "Which shows that you have Overweight";
+            document.getElementById("bmi-result").classList.add("owBmi");
+            document.getElementById("bmi-result").classList.remove("uwBmi");
+            document.getElementById("bmi-result").classList.remove("nmBmi");
+        } else {
+            alert("Please fill both height and weight using the slider");
+        }
+    }
+
+    function showSliderValue() {
+        rangeBullet.innerHTML = rangeSlider.value;
+    }
+
+    function showSlider() {
+        rangeBull.innerHTML = rangeSlide.value;
+    }
+</script>
+
+
+</html>

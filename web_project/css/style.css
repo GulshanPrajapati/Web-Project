@@ -1,0 +1,703 @@
+/*---------------------------------------------------banner----------------------------------------------------*/
+
+#banner {
+    background-image: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+    color: #fff;
+    padding-top: 5%;
+}
+
+.banner-title {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 5%;
+}
+
+.text {
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner-image {
+    text-align: center;
+}
+
+.banner-image img {
+    width: 60%;
+    margin-top: 2%;
+}
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    display: inline-block;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.6);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    border: rgb(30, 132, 250) solid 1px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+}
+
+.btn-white {
+    color: #777;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.wave {
+    width: 100%;
+}
+
+
+/*------------------------------------------------------services--------------------------------------------------*/
+
+#services {
+    background-color: rgb(253, 254, 255);
+}
+
+.main-title {
+    color: rgb(7, 116, 241);
+    margin: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-title::before {
+    content: '';
+    background: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.main-title::after {
+    content: '';
+    background: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+    height: 7px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(4px);
+}
+
+.home-card {
+    box-shadow: 5px 10px 20px rgba(10, 172, 236, 0.6);
+}
+
+.home-card:hover {
+    transform: scale(1.0);
+}
+
+.card-body .card-title {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.card-body .card-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
+
+/* ----------------------------------------------------Consultancy------------------------------------------------------------ */
+
+.consutancy-image {
+    width: 100%;
+    padding: 30px;
+    border: 25px solid rgb(10, 172, 236);
+}
+
+.consutancy-image:hover {
+    transform: scale(1.01);
+}
+
+.text-detail {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+/*----------------------------------------------------- about us--------------------------------------------------------------------- */
+
+.about-name {
+    font-size: 30px;
+    margin-top: 0;
+    background: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.about-speciality-list {
+    font-size: 20px;
+    border: solid white 1px;
+    margin-bottom: 5px;
+    padding: 6px;
+    border-radius: 100px;
+    text-align: center;
+    transform: scale(0.9);
+    font-weight: 600;
+    box-shadow: 5px 10px 20px rgb(10, 172, 236);
+}
+
+.about-speciality-list:hover {
+    transform: scale(0.85);
+    box-shadow: 5px 10px 20px rgb(7, 116, 241);
+}
+
+.about-main-image {
+    text-align: center;
+}
+
+.about-image {
+    align-content: center;
+    width: 90%;
+    border-radius: 12px;
+    border: solid 10px rgb(227, 234, 241);
+    padding: 10px;
+}
+
+.about-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.about-details {
+    font-family: 'Solway', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 30px;
+}
+
+.cert-image {
+    align-content: center;
+    width: 90%;
+    border-radius: 12px;
+    border: solid 10px rgb(227, 234, 241);
+    padding: 10px;
+}
+
+
+/*  ----------------------------------------------------------footer--------------------------------------------------- */
+
+#footer {
+    background-image: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+    color: #fff;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-space {
+    margin-top: 40px;
+}
+
+.footer-box .icon {
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+    font-size: 25px;
+    border-radius: 3px;
+    margin-right: 10px;
+    background-image: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+    text-align: center;
+}
+
+.text-area {
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.footer-links:link,
+.footer-links:visited {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+#SIGN {
+    background: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    font-weight: 600;
+    padding-left: 20px;
+    color: white !important;
+}
+
+.navbar-nav li {
+    padding: 0 15px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+/*----------------------------contact-form--------------------------------*/
+
+.contact-form {
+    margin-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.call-infomation {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.address-contact {
+    color: rgb(7, 116, 241);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*------------------------------------Consultancy----------------------------*/
+
+
+/*------------------------------------Exclusive program-----------------------*/
+
+
+/* ------------------------------------------------bmi------------------------------------------------ */
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.box-minmax {
+    margin-top: 30px;
+    width: 608px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.box-minmax span:first-child {
+    margin-left: 10px;
+}
+
+.range-slider {
+    margin-top: 20px;
+}
+
+.rs-range {
+    margin-top: 29px;
+    width: 600px;
+    -webkit-appearance: none;
+}
+
+.rs-range:focus {
+    outline: none;
+}
+
+.rs-range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 1px;
+    cursor: pointer;
+    box-shadow: none;
+    background: #ffffff;
+    border-radius: 0px;
+    border: 0px solid #010101;
+}
+
+.rs-range::-moz-range-track {
+    width: 100%;
+    height: 1px;
+    cursor: pointer;
+    box-shadow: none;
+    background: #ffffff;
+    border-radius: 0px;
+    border: 0px solid #010101;
+}
+
+.rs-range::-webkit-slider-thumb {
+    box-shadow: none;
+    border: 0px solid #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    height: 42px;
+    width: 22px;
+    border-radius: 22px;
+    background: white;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -20px;
+}
+
+.rs-range::-moz-range-thumb {
+    box-shadow: none;
+    border: 0px solid #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    height: 42px;
+    width: 22px;
+    border-radius: 22px;
+    background: white;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -20px;
+}
+
+.rs-range::-moz-focus-outer {
+    border: 0;
+}
+
+.rs-label {
+    position: relative;
+    transform-origin: center center;
+    display: block;
+    width: 98px;
+    height: 98px;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 22px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    margin-left: -38px;
+    left: attr(value);
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+}
+
+.rs-label-1 {
+    position: relative;
+    transform-origin: center center;
+    display: block;
+    width: 98px;
+    height: 98px;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 22px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    margin-left: -38px;
+    left: attr(value);
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+}
+
+.rs-label::after {
+    content: "kg";
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    margin-top: -2px;
+}
+
+.rs-label-1::after {
+    content: "cm";
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    margin-top: -2px;
+}
+
+.bmi-div {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#bmi-result {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.uwBmi {
+    font-size: 40px;
+    color: rgb(85, 49, 3);
+}
+
+.nmBmi {
+    font-size: 40px;
+    color: rgb(3, 70, 3);
+}
+
+.owBmi {
+    font-size: 4opx;
+    color: rgb(75, 2, 2);
+}
+
+
+/* ------------------------------------------------bmi------------------------------------------------ */
+
+.consult-program-info {
+    font-style: inherit;
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.consult-program-photo {
+    text-align: center;
+}
+
+.consult-program-photo img {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+}
+
+
+/*------------------------------------Consultancy program-----------------------*/
+
+.consult-program-info {
+    font-style: inherit;
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.consult-program-photo {
+    text-align: center;
+}
+
+.consult-program-photo img {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+}
+
+
+/*--------------------------------How it work------------------------*/
+
+
+/*--------------------------------Sign Up---------------------------------*/
+
+.howitworkstyle {
+    font-style: inherit;
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.text-center-style h3 {
+    color: rgb(7, 116, 241);
+}
+
+.consult-text-work {
+    background-color: rgb(7, 116, 241);
+    color: #fff;
+    border-radius: 1%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0.4);
+}
+
+.consult-text-work-1 {
+    margin-left: 120px;
+    margin-top: 10px;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 60px;
+}
+
+.text-center-style {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-image: url('../photo/111.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*-----------------------------slider-------------------------*/
+
+
+/*------------------------------services-------------------*/
+
+.background-green {
+    background-color: #27ae60;
+}
+
+.container-spacy {
+    padding: 60px 20px;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+
+/*
+**------------------------------------ Headers--------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Lato";
+}
+
+
+/*------------------ Containers-----------------*/
+
+.container {
+    padding: 40px 20px;
+}
+
+.recent {
+    text-align: center;
+}
+
+.recent h2 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.recent p {
+    margin-bottom: 50px;
+    color: #0000;
+}
+
+.recent ul li {
+    color: #000000;
+    border: 2px solid transparent;
+    padding: 8px 20px;
+    text-align: left;
+}
+
+.recent b {
+    font-weight: 800;
+}
+
+
+/*--------------------services------------------------------*/
+
+.services-work-style {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    color: rgb(7, 116, 241);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.services-treat-style {
+    color: rgb(7, 116, 241);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.services-nurtition-style {
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(7, 116, 241);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* @media screen and (max-width: 500px) {
+    .services-font-size {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .services-font-size {
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .services-font-size-version {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .services-font-size-version {
+        font-size: 23px;
+    }
+} */
+
+
+/*---------------------------contact-media-query------------------------*/
+
+.para-title {
+    color: #ffff;
+    background-color: rgb(7, 116, 241);
+    padding: 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
