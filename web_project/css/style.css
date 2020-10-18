@@ -1,4 +1,10 @@
 /*---------------------------------------------------banner----------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 #banner {
     background-image: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
@@ -34,17 +40,20 @@
     text-transform: uppercase;
     padding: 15px 40px;
     display: inline-block;
+    text-decoration: none;
 }
 
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.6);
+    text-decoration: none;
 }
 
 .btn:active {
     transform: translateY(-1px);
     border: rgb(30, 132, 250) solid 1px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+    text-decoration: none;
 }
 
 .btn-white {
@@ -239,11 +248,6 @@
     background: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 #nav-bar {
     position: sticky;
@@ -302,193 +306,23 @@
 
 
 /*------------------------------------Consultancy----------------------------*/
+/* ---------------------------------------------------------BMI---------------------------------------------------------------------- */
 
+.bmi-container {
+    height: 70vh;
+}
+
+.bmi-output {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Commissioner', sans-serif;
+}
 
 /*------------------------------------Exclusive program-----------------------*/
 
 
-/* ------------------------------------------------bmi------------------------------------------------ */
-
-.container-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.box-minmax {
-    margin-top: 30px;
-    width: 608px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    color: #FFFFFF;
-}
-
-.box-minmax span:first-child {
-    margin-left: 10px;
-}
-
-.range-slider {
-    margin-top: 20px;
-}
-
-.rs-range {
-    margin-top: 29px;
-    width: 600px;
-    -webkit-appearance: none;
-}
-
-.rs-range:focus {
-    outline: none;
-}
-
-.rs-range::-webkit-slider-runnable-track {
-    width: 100%;
-    height: 1px;
-    cursor: pointer;
-    box-shadow: none;
-    background: #ffffff;
-    border-radius: 0px;
-    border: 0px solid #010101;
-}
-
-.rs-range::-moz-range-track {
-    width: 100%;
-    height: 1px;
-    cursor: pointer;
-    box-shadow: none;
-    background: #ffffff;
-    border-radius: 0px;
-    border: 0px solid #010101;
-}
-
-.rs-range::-webkit-slider-thumb {
-    box-shadow: none;
-    border: 0px solid #ffffff;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-    height: 42px;
-    width: 22px;
-    border-radius: 22px;
-    background: white;
-    cursor: pointer;
-    -webkit-appearance: none;
-    margin-top: -20px;
-}
-
-.rs-range::-moz-range-thumb {
-    box-shadow: none;
-    border: 0px solid #ffffff;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-    height: 42px;
-    width: 22px;
-    border-radius: 22px;
-    background: white;
-    cursor: pointer;
-    -webkit-appearance: none;
-    margin-top: -20px;
-}
-
-.rs-range::-moz-focus-outer {
-    border: 0;
-}
-
-.rs-label {
-    position: relative;
-    transform-origin: center center;
-    display: block;
-    width: 98px;
-    height: 98px;
-    background: transparent;
-    border-radius: 50%;
-    line-height: 30px;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 22px;
-    box-sizing: border-box;
-    border: 2px solid #fff;
-    margin-top: 20px;
-    margin-left: -38px;
-    left: attr(value);
-    color: #fff;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 36px;
-}
-
-.rs-label-1 {
-    position: relative;
-    transform-origin: center center;
-    display: block;
-    width: 98px;
-    height: 98px;
-    background: transparent;
-    border-radius: 50%;
-    line-height: 30px;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 22px;
-    box-sizing: border-box;
-    border: 2px solid #fff;
-    margin-top: 20px;
-    margin-left: -38px;
-    left: attr(value);
-    color: #fff;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 36px;
-}
-
-.rs-label::after {
-    content: "kg";
-    display: block;
-    font-size: 20px;
-    letter-spacing: 0.07em;
-    margin-top: -2px;
-}
-
-.rs-label-1::after {
-    content: "cm";
-    display: block;
-    font-size: 20px;
-    letter-spacing: 0.07em;
-    margin-top: -2px;
-}
-
-.bmi-div {
-    text-align: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-#bmi-result {
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.uwBmi {
-    font-size: 40px;
-    color: rgb(85, 49, 3);
-}
-
-.nmBmi {
-    font-size: 40px;
-    color: rgb(3, 70, 3);
-}
-
-.owBmi {
-    font-size: 4opx;
-    color: rgb(75, 2, 2);
-}
-
-
-/* ------------------------------------------------bmi------------------------------------------------ */
 
 .consult-program-info {
     font-style: inherit;
@@ -512,6 +346,7 @@
     margin-bottom: 20px;
     background-image: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
 }
+
 
 
 /*------------------------------------Consultancy program-----------------------*/
@@ -550,6 +385,7 @@
     font-family: "Lato", sans-serif;
     font-size: 48px;
     text-align: center;
+
 }
 
 .text-center-style h3 {
@@ -561,15 +397,20 @@
     color: #fff;
     border-radius: 1%;
     box-shadow: 5px 10px 10px rgba(0, 0, 0.4);
+    padding-right:20px;
+    
 }
-
+/* style="margin-left: 50px; padding-top: 35px;"*/
 .consult-text-work-1 {
     margin-left: 120px;
     margin-top: 10px;
     font-family: "Lato", sans-serif;
     padding-bottom: 60px;
 }
-
+.consult-textwork-textstyle{
+    margin-left: 50px;
+    padding-top: 35px;
+}
 .text-center-style {
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -578,7 +419,207 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media (max-width:800px){
+    .consult-text-work{
+    background-color: rgb(7, 116, 241);
+    border-radius: 1%;
+    color: #ffffff;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0.4);
+    text-align: center;
+    
+    }
+    .consult-text-work-1{
+        padding: auto;
+        text-align: center;
+        margin-left: 2%;
 
+    }
+    
+}
+
+
+/*------------------------------Card-----------------------*/
+
+.design-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: #ffffff;
+  min-height: 100vh;
+}
+
+.consult-card-container{
+  position: relative;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.consult-card-container .card{
+  position: relative;
+  height: 250px;
+  background: #fff;
+  display: flex;
+  width: 45%;
+  margin-bottom: 30px;
+  border: 1px solid gray;
+}
+
+.consult-card-container .card .img-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to left, rgb(7, 116, 241), rgb(10, 172, 236));
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+
+}
+.consult-card-container .card:hover .img-box{
+
+width: 150px;
+height: 150px;
+left: -75px;
+border-radius: 5px;
+top: calc(50% - 75px);
+transition: .55s ease-in-out;
+background: rgb(10, 172, 236);
+
+}
+
+.consult-card-container .card.img-box:hover{
+  content: attr(data-text);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+.consult-card-container .card.img-box img{
+  max-width: 75px;
+  transition: 0.5s ease-in-out;
+
+}
+
+.consult-card-container .card:hover .img-box img{
+  max-width: 75px;
+
+
+}
+.consult-card-container .card .content{
+  padding: 30px;
+  position: absolute;
+  right:0;
+  width: calc(100% - 75px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.consult-card-container .card .content h3{
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  line-height: 35px;
+
+}
+
+.consult-card-container .card .content p{
+  text-align: justify;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: red;
+  line-height: 23px;
+  color: rgba(119, 119, 119, 0.705); /*rgba(119, 119, 119, 0.705)*/
+
+}
+
+
+.consult-card-container .card .content a{
+  text-align: justify;
+  font-family: roboto;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 35px;
+  transition: .5s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
+}
+
+.consult-card-container .card .content a:hover{
+  text-decoration: none;
+
+}
+.consult-singup-textstyle{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+
+@media (max-width: 992px){
+
+  .consult-card-container{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .consult-card-container .card {
+    width: 400px;
+
+  }
+}
+
+@media (max-width: 768px){
+  .consult-card-container .card {
+    max-width: 300px;
+    flex-direction: column;
+    height: auto;
+
+  }
+  .consult-card-container .card .img-box{
+    position: relative;
+
+  }
+
+  .consult-card-container .card .img-box,
+  .consult-card-container .card:hover .img-box{
+    width: 100%;
+    height: 200px;
+    left: 0;
+  }
+  .consult-card-container .card .img-box,
+  .consult-card-container .card:hover .img-box img{
+    max-width: 100%;
+  }
+  .consult-card-container .card .content{
+    position: relative;
+    width: 100%;
+
+  }
+
+}
 
 /*-----------------------------slider-------------------------*/
 
